@@ -1,0 +1,203 @@
+/*
+    Theme Name: EliteCorp
+    Theme Coder: Ayman
+    Designer: ayman
+*/
+.btn
+{
+    background-color: #007bff;
+    color: white;
+}
+.btn:hover
+{
+    background-color: white;
+    color: #007bff;
+    border-color: #007bff;
+}
+.card-title,.card-text
+{
+    text-align: center;
+    
+}
+.carousel
+{
+    margin-top: 50px;
+}
+.carousel-item button:hover
+{
+    background-color: transparent;
+}
+
+.container p
+{
+    color: #999;
+    line-height: 25px;
+}
+.container h2,h3
+{
+    color: #007bff;
+}
+.container h2{
+    font-size: 18px;
+}
+.footer-top
+{
+    background: #f8f9fa;
+    padding: 80px 0;
+}
+.segment-one h3
+{
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    margin: 10px 0 ;
+    font-weight: bold;
+}
+.segment-one h3::before
+{
+    content: '|';
+    color: #999;
+    padding-right: 10px;
+}
+.segment-two
+{
+    margin-bottom: 50px;
+}
+.segment-two h2
+{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.segment-two h2::before
+{
+    content: '|';
+    color: #999;
+    padding-right: 10px;
+}
+.segment-two ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two li
+{
+    border-bottom: 1px solid #999;
+    line-height: 40px;
+}
+.segment-two a
+{
+    color: #999;
+    text-decoration: none;
+}
+.segment-two a:hover{
+    color: black  ;
+}
+.segment-three
+{
+    margin-bottom: 50px;
+}
+.segment-three h2
+{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.segment-three h2::before
+{
+    content: '|';
+    color: #999;
+    padding-right: 10px;
+}
+.segment-three a
+{
+    background-color: #007bff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.8s;
+}
+.segment-three a i
+{
+    font-size: 20px;
+    color: white;
+    padding: 10px 12px;
+}
+.fa-facebook:hover
+{
+    background-color:#007bff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.fa-twitter:hover
+{
+    background-color: #00acee;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.fa-linkedin:hover
+{
+    background-color: #0e76a8;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.fa-pinterest:hover
+{
+    background-color: #c8232c;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.segment-four h2
+{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.segment-four h2::before
+{
+    content: '|';
+    color: #999;
+    padding-right: 10px;
+}
+.segment-four form input[type=submit]
+{
+    margin: 3px 15px;
+    margin-left: -5px;
+    text-transform: uppercase;
+}
+.footer-bottom-text
+{
+    text-align: center;
+    background-color: #f8f9fa;
+    line-height: 75px;
+}
+@media only screen and (min-width:300px) and (max-width:768px)
+{
+    .carousel-caption
+    {
+        font-size: x-small ;
+    }
+    .carousel-caption h1
+    {
+        font-size: small;
+    }
+    .carousel-caption button
+    {
+        width: 100px;
+        height: 30px;
+        font-size: x-small;
+    }
+}
